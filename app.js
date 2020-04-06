@@ -28,9 +28,9 @@ router.get("/gallery", (req, res) => {
   res.render("gallery", {});
 });
 
-router.get("/community", (req, res) => {
-  res.render("community", {});
-});
+// router.get("/community", (req, res) => {
+//   res.render("community", {});
+// });
 
 router.get("/contact", (req, res) => {
   res.render("contact", {});

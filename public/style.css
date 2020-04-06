@@ -1,7 +1,7 @@
 body,
 html {
   height: 100%;
-  background-color: rgb(217, 219, 219);
+  background-color: rgb(237, 240, 240);
   font-family: "Baloo Da 2", cursive;
 }
 
@@ -91,6 +91,7 @@ i {
 .person {
   text-align: center;
   padding: 45px;
+  padding-top: 7%;
 }
 
 .photo {
@@ -100,6 +101,10 @@ i {
 .pictures {
   margin-top: 65px;
   text-align: center;
+}
+
+.indexpic {
+  margin-top: 45px;
 }
 
 .col-sm img {
