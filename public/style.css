@@ -91,7 +91,7 @@ i {
 .person {
   text-align: center;
   padding: 45px;
-  padding-top: 7%;
+  padding-top: 2%;
 }
 
 .photo {
@@ -170,4 +170,70 @@ i {
 }
 .row {
   margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  body, html {
+    height: 100%;
+  }
+  
+  .parallax {
+    background: url("img/img1.jpg");
+    height: 100%;
+    width: 100%;
+    background-attachment:scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .text {
+    color: red;
+    left: 0;
+    line-height: 0px;
+    margin-top:0px;
+    position: relative;
+    text-align: center;
+    top: 15%;
+    width: 100%;
+    font-family: "Lobster", cursive !important;
+  }
+  
+  .text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  .text h2 {
+    font-size: 1.55rem;
+  }
+  
+  .text h3 {
+    padding-left: 0;
+  }
+  
+  .text h4 {
+    padding-left: 0;
+    font-size: 1.55rem;
+  }
+
+  .person {
+    text-align: center;
+    padding: 22px 0 0 0;
+    margin:0;
+    width:100%;
+  }
+
+  .services {
+    margin: 20px;
+    margin-top: 30px;
+    font-size: 1.2rem;
+  }
+
+  .contact {
+    margin: auto;
+    width: 100%;
+    padding: 10% 3px;
+    text-align: center;
+  }
 }
